@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import logoImg from "../images/layout/logo/logo.svg"
 
 
@@ -67,11 +68,11 @@ const Footer = () => {
           <div className="footer_bottom_right">
             <nav>
               <ul>
-                <li><a href="javascript:void(0);" alt="">Terms of Use</a></li>
+                <li><Link to="javascript:void(0);" alt="">Terms of Use</Link></li>
                 |
-                <li><a href="javascript:void(0);" alt="">Privacy Policy</a></li>
+                <li><Link to="javascript:void(0);" alt="">Privacy Policy</Link></li>
                 |
-                <li><a href="javascript:void(0);" alt="">Cookie Policy</a></li>
+                <li><Link to="javascript:void(0);" alt="">Cookie Policy</Link></li>
               </ul>
             </nav>
           </div>
