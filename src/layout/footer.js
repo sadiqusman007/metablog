@@ -21,12 +21,12 @@ const Footer = () => {
             <h3>Quick Link</h3>
             <nav>
               <ul>
-                <li><a href="javascript:void(0);" alt="">Home</a></li>
-                <li><a href="javascript:void(0);" alt="">About</a></li>
-                <li><a href="javascript:void(0);" alt="">Blog</a></li>
-                <li><a href="javascript:void(0);" alt="">Archived</a></li>
-                <li><a href="javascript:void(0);" alt="">Author</a></li>
-                <li><a href="javascript:void(0);" alt="">Contact</a></li>
+                <li><Link to="/" alt="">Home</Link></li>
+                <li><Link to="javascript:void(0);" alt="">About</Link></li>
+                <li><Link to="/blog" alt="">Blog</Link></li>
+                <li><Link to="javascript:void(0);" alt="">Archived</Link></li>
+                <li><Link to="javascript:void(0);" alt="">Author</Link></li>
+                <li><Link to="javascript:void(0);" alt="">Contact</Link></li>
               </ul>
             </nav>
           </div>
