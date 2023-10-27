@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Header = (props) => {
   return (
     <header>
@@ -8,11 +9,11 @@ const Header = (props) => {
           <div className="logo"><img src={props.logo} alt="" /></div>
           <nav>
             <ul>
-              <li><a href="javascript:void(0);">Home</a></li>
-              <li><a href="javascript:void(0);">Blog</a></li>
-              <li><a href="javascript:void(0);">Single Post</a></li>
-              <li><a href="javascript:void(0);">Pages</a></li>
-              <li><a href="javascript:void(0);">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/single-post">Single Post</a></li>
+              <li><a href="/pages">Pages</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </nav>
           <div className="nav_right_part">

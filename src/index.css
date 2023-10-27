@@ -8,15 +8,16 @@
 }
 
 .page_width{
-  max-width: 1250;
+  width: 1250;
   margin:auto;
+  padding: 0px 50px;
 }
 
 /*header portion start*/
 .nav_header{
   align-items: center;
   display: flex;
-  padding: 20px 50px;
+  padding: 20px 0px;
   justify-content: space-between;
   width:100%;
 }
@@ -75,13 +76,13 @@
 footer{
   background: #f6f6f7;
   border-top: 1px solid #e8e8ea;
+  margin-top: 80px;
 }
 
 .footer_grid{
   display: grid;
-  grid-template-columns: 1fr 0.8fr 0.8fr 1.2fr;
+  grid-template-columns: 1.2fr 0.8fr 0.8fr 1.2fr;
   padding: 64px 120px;
-
 }
 
 .footer_grid .footer_about{

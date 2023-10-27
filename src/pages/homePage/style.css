@@ -1,0 +1,198 @@
+.banner_section{
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.banner_post{
+    background-color: #fff;
+    border-radius: 12px;
+    bottom: -50px;
+    box-shadow: 1px 1px 9px 2px rgba(0,0,0,.09);
+    -webkit-box-shadow: 1px 1px 9px 2px rgba(0,0,0,.09);
+    -moz-box-shadow: 1px 1px 9px 2px rgba(0,0,0,.09);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 115px;
+    padding: 40px;
+    position: absolute;
+    width: 40%;
+}
+
+.banner_post button{
+    background: #4b6bfb;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    padding: 9px 15px;
+    width: 30%;
+}
+
+.banner_post h2{
+    color: var(--secondary-800, #181A2A);
+    /* Heading/h1/Semibold */
+    font-family: Work Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 111.111% */
+}
+
+.post_detail{
+    display: flex;
+    align-items: center;
+}
+
+.post_detail p{
+    color: var(--secondary-400, #97989F);
+    /* Body/b4/Regular */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+
+/*advertisement banner*/
+.advertisement_banner{
+    display: flex;
+    flex-direction: column;
+    background: #e8e8ea;
+    border-radius: 12px;
+    align-items: center;
+    gap: 5px;
+    height: 100px;
+    width: 750px;
+    justify-content: center;
+    margin: auto;
+}
+
+.advertisement_banner h4{
+    color: var(--secondary-500, #696A75);
+    text-align: center;
+    /* Body/b5/Regular */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.advertisement_banner h2{
+    color: var(--secondary-500, #696A75);
+    text-align: center;
+    /* Heading/h4/Semibold */
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+}
+
+.advertisement_banner h3{
+    color: var(--secondary-500, #696A75);
+    text-align: center;
+    /* Body/b3/Regular */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+
+/*technology top part*/
+.technology{
+    padding: 3rem 10px;
+}
+
+.technology .top_part{
+    text-align:left;
+}
+
+.technology .top_part h2{
+    color: var(--secondary-800, #181A2A);
+    /* Heading/h3/Bold */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */
+}
+
+.client_card{
+    padding: 2rem 0px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:16px;
+   
+}
+
+.client_card .technology{
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    padding:16px;
+
+}
+
+.client_card .technology_topview{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.client_card .technology_topview h5{
+    color: var(--theme-1-primary, #4B6BFB);
+    /* Body/b5/Medium */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    padding:16px 10px;
+}
+
+.client_card .technology_topview p{
+    color: var(--secondary-800, #181A2A);
+    /* Heading/h3/Semibold */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 116.667% */
+}
+
+.client_card .technology_bottomview{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding-top: 16px;
+}
+
+.client_card .technology_bottomview .technology_bottomview_textpart{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.client_card .technology_bottomview .technology_bottomview_textpart h4{
+    color: var(--secondary-400, #97989F);
+    /* Body/b4/Medium */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.client_card .technology_bottomview .technology_bottomview_textpart p{
+    color: var(--secondary-400, #97989F);
+    /* Body/b4/Regular */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
