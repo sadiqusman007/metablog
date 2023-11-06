@@ -15,7 +15,7 @@ const Header = (props) => {
               <li><Link to="/pages">Pages</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
-          </nav>
+           </nav>
           <div className="nav_right_part">
             <div className="nav_search">
               <input type="text" placeholder="search" />
